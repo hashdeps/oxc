@@ -79,5 +79,7 @@ serialize = [
 # Only for conformance tests
 conformance = ["oxc_ast_visit/conformance"]
 
+allocator_api = ["oxc_allocator/allocator_api"]
+
 [package.metadata.docs.rs]
 all-features = true
