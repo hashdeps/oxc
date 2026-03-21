@@ -965,6 +965,7 @@ version = "0.15.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9229cfe53dfd69f0609a49f65461bd93001ea1ef889cd5529dd176593f5338a1"
 dependencies = [
+ "allocator-api2",
  "foldhash 0.1.5",
 ]
 
@@ -1706,7 +1707,7 @@ version = "0.95.0"
 dependencies = [
  "allocator-api2",
  "bumpalo",
- "hashbrown 0.16.0",
+ "hashbrown 0.15.5",
  "oxc_ast_macros 0.95.0",
  "oxc_data_structures 0.95.0",
  "oxc_estree 0.95.0",
@@ -3250,9 +3251,9 @@ dependencies = [
 
 [[package]]
 name = "rustls-webpki"
-version = "0.103.7"
+version = "0.103.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e10b3f4191e8a80e6b43eebabfac91e5dcecebb27a71f04e820c47ec41d314bf"
+checksum = "df33b2b81ac578cabaf06b89b0631153a3f416b0a886e8a7a1707fb51abbd1ef"
 dependencies = [
  "ring",
  "rustls-pki-types",
